@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    max-width: 1440px;
+    min-height: 100vh;
+    background-image: url(/images/bg-intro-mobile.png);
+    position: fixed;
+    background-color: hsl(0, 100%, 74%);
+    
+    
+}
+
+main {
+    width: 100%;
+    margin: 100px auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+ .box1 {
+    width: 33%;
+    margin-right: 33px;
+    padding-right: 30px;
+
+
+ }
+
+ h1 {
+    font-family: Poppins ;
+    color: white;
+ }
+
+ .p1 {
+    margin-top: 25px;
+    font-family: Poppins ;
+    font-size: 16px;
+    color: white;
+    align-self: stretch;
+ }
+
+ .box2 {
+    width: 35%;
+
+    
+ }
+
+.p2 {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 13px;
+    background-color: hsl(248, 32%, 49%) ;
+    border-radius: 5px;
+    font-family: Poppins ;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 3px hsla(248, 32%, 49%, 0.3);
+    
+}
+.p2 span {
+  font-weight: bold;
+}
+
+.form {
+    width: 100%;
+    background-color:white;
+    padding: 20px 20px 35px 20px;
+    border-radius: 8px;
+    
+}
+
+.form input {
+    width: 100%;
+    margin: 4px;
+    padding: 15px;
+    border: 0.5px solid hsl(246, 25%, 77%);
+    border-radius: 5px; 
+    display: inline-block;  
+}
+
+button {
+    width: 100%;
+    margin: 4px;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Poppins ;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(60, 234, 179);
+}
+
+.p3 {
+    font-family: Poppins ;
+    font-size: 16px;
+    text-align: center;
+    color:hsl(246, 25%, 77%) ;
+}
+
+.p3 span {
+    color: hsl(0, 100%, 74%);
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+
+    body {
+        /* max-width: 375px;  */
+        background-image: url(/images/bg-intro-mobile.png);
+        background-color: hsl(0, 100%, 74%);
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        
+        
+    } 
+
+    main {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box1, .box2 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .box1 {
+        text-align: center;
+    }
+    .box2 {
+        margin-top: 40px;
+    }
+
+
+
+} 
