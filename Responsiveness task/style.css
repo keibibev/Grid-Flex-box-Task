@@ -8,10 +8,9 @@
 }
 
 body {
-    max-width: 1440px;
+    width: 1440px;
     min-height: 100vh;
     background-image: url(/images/bg-intro-mobile.png);
-    position: fixed;
     background-color: hsl(0, 100%, 74%);
     
     
@@ -121,8 +120,8 @@ button:hover {
 @media only screen and (max-width: 375px) {
 
     body {
+        width: 100%;
         background-image: url(/images/bg-intro-mobile.png);
-        position: relative;
         background-color: hsl(0, 100%, 74%);
           
     } 
@@ -133,7 +132,7 @@ button:hover {
         flex-direction: column;
     }
     
-    .box1, .box2 {
+    .box1 .box2 {
         width: 100%;
         margin: 0;
         padding: 0;
